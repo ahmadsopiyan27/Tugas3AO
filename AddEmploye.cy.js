@@ -19,7 +19,7 @@ describe('OrangeHRM Add Leave Entitlement', () => {
     cy.get('.oxd-select-text').first().click();
     cy.contains('CAN - Vacation').click();
 
-    cy.get('.oxd-input').eq(1).type('3');
+    cy.get('.oxd-input').eq(1).type('2');
     cy.get('[type="submit"]').click();
     cy.contains('button', 'Confirm').click();
 
